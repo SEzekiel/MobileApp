@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Home</title>
+		<link rel="stylesheet" href="">
+		
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.30/css/uikit.min.css" />
+		
+		<style>
+		a{
+		text-decoration: none;
+		}
+		a:hover{
+		text-decoration: none;
+		}
+		</style>
+	</head>
+	<body>
+		<div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky">
+			<nav class="uk-navbar uk-navbar-container uk-margin uk-navbar-primary">
+				<div class="uk-navbar-left">
+					<a class="uk-navbar-toggle" href="#" uk-toggle="target: #offcanvas-slide">
+						<span uk-icon="icon: home; ratio: 2"></span>
+					</a>
+				</div>
+				<div class="uk-navbar-right">
+					<a class="uk-navbar-toggle" href="#" uk-toggle="target: #offcanvas-slide">
+						<span uk-navbar-toggle-icon></span> <span class="uk-margin-small-left">Menu</span>
+					</a>
+				</div>
+			</nav>
+		</div>
+		
+		<div class="uk-offcanvas-content">
+			
+			<div id="offcanvas-slide" uk-offcanvas="mode: slide; overlay: false">
+				<div class="uk-offcanvas-bar">
+					<button class="uk-offcanvas-close" type="button" uk-close></button>
+					<h3>Departments</h3><p></p>
+					<ul class="uk-list uk-list-divider">
+						<li><a href="#">Home</a></li>
+						<li><a href="cs.html">Computer science</a></li>
+						<li><a href="hm.html">Humanities</a></li>
+						<li><a href="ba.html">Business Admin</a></li>
+						<li><a href="en.html">Engineering</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div>
+			<div class="uk-container">
+				<div class="uk-card uk-card-primary uk-card-body">
+					<h3 class="uk-card-title">Home</h3>
+					<p>
+						Since our founding in 2002, Ashesi has established a reputation as a leader in undergraduate education in Africa, with an educational experience that fosters ethical leadership, an entrepreneurial mindset and the ability to solve complex problems. These qualities are what set Ashesi students and alumni apart. Across various industries today, Ashesi graduates are highly sought, and over 90% have stayed to work for progress in Africa.
+						At the heart of the Ashesi experience is our interdisciplinary core curriculum, and our campus culture. Ashesi students come from 24 countries across the globe to learn, live and innovate together; almost half are on scholarships, and 48% are women. On campus, these students join with faculty and Ashesi leadership on a shared mission to transform the African continent.
+						Mission
+					To educate ethical and entrepreneurial leaders in Africa; to cultivate in students, the critical thinking skills, concern for others and the courage it will take to transform our continent.</p>
+				</div>
+			</div>
+		</div>
+		<div>
+			<ul class="uk-child-width-expand uk-tab-bottom" uk-tab style="margin-top: 16%">
+				<li class="uk-active"><a href="#" uk-icon="icon: home; ratio: 1"></a></li>
+				<li><a href="cs.html">CS</a></li>
+				<li><a href="hm.html">HUM</a></li>
+				<li><a href="ba.html">BA</a></li>
+				<li><a href="en.html">ENG</a></li>
+			</ul>
+		</div>
+		<!-- jQuery is required -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<!-- UIkit JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.30/js/uikit.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.30/js/uikit-icons.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.30/js/uikit-icons.min.js"></script>
+	</body>
+</html>
